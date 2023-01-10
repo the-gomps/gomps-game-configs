@@ -1,4 +1,4 @@
-# GOMPS Game Settings
+# Gomps Game Settings
 
 There will always be games that don't work perfectly with the default GOMPS settings. This repo hosts good GOMPS settings for specific games.
 
