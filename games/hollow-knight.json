@@ -1,4 +1,5 @@
 {
+  "$schema": "../gomps-settings-schema.json",
   "LocalPlayerObjectName": "Knight",
   "TextScale": 2,
   "RemotePlayerObjectScale": 2,
