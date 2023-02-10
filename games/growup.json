@@ -1,0 +1,9 @@
+{
+  "StartupDelayTime": 1,
+  "LocalPlayerObjectName": "Walkster",
+  "LocalPlayerObjectChildPath": "HeadPivot",
+  "RemotePlayerObjectScale": 1.5,
+  "RemotePlayerObjectPositionOffset": "0.0,0.0,0.0",
+  "RemotePlayerObjectEulerOffset": "0.0,0.0,0.0",
+  "RemotePlayerShaderName": ""
+}
