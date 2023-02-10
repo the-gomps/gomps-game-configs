@@ -1,7 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
+    "$schema": {
+      "description": "Schema",
+      "type": "string"
+    },
     "StartupDelaySeconds": {
       "description": "The delay (in seconds) on startup before stuff is created",
       "type": "number"
