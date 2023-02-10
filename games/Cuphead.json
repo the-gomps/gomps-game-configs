@@ -1,0 +1,9 @@
+{
+  "StartupDelayTime": 1,
+  "LocalPlayerObjectName": "PlayerOne",
+  "LocalPlayerObjectChildPath": "",
+  "RemotePlayerObjectScale": 100,
+  "RemotePlayerObjectPositionOffset": "0.0,0.0,0.0",
+  "RemotePlayerObjectEulerOffset": "0.0,0.0,0.0",
+  "RemotePlayerShaderName": "Legacy Shaders/VertexLit"
+}
