@@ -7,10 +7,6 @@
       "description": "Schema",
       "type": "string"
     },
-    "StartupDelaySeconds": {
-      "description": "The delay (in seconds) on startup before stuff is created",
-      "type": "number"
-    },
     "LocalCameraObjectName": {
       "description": "Name of the local object to use as the camera. If this is not defined or this object can't be found, I'll try to find the main camera by myself.",
       "type": "string"
