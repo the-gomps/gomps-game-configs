@@ -4,6 +4,6 @@
   "LocalPlayerObjectChildPath": "",
   "RemotePlayerObjectScale": 2,
   "RemotePlayerObjectPositionOffset": "0.0,-0.6,0.0",
-  "RemotePlayerObjectEulerOffset": "0.0,0.0,0.0",
+  "RemotePlayerObjectEulerOffset": "0.0,180,0.0",
   "RemotePlayerShaderName": ""
 }
