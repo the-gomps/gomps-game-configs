@@ -3,5 +3,5 @@
     "LocalPlayerObjectName": "PlayerCharacter",
     "LocalPlayerObjectChildPath": "CharacterController/LookDirection/Image Carry",
     "RemotePlayerObjectScale": 1.5,
-    "TextScale": 2,
+    "TextScale": 2
   }
