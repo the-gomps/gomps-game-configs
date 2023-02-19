@@ -1,0 +1,6 @@
+{
+    "$schema": "../gomps-settings-schema.json",
+    "LocalPlayerObjectName": "PlayerPositionIndicator(Clone)",
+    "LocalPlayerObjectChildPath": "DeadIcon",
+    "RemotePlayerObjectScale": 1
+  }
