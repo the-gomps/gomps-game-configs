@@ -1,4 +1,7 @@
 {
   "$schema": "../gomps-settings-schema.json",
-  "OriginComponentName": "AstroObject"
+  "OriginComponentName": "Sector",
+  "OriginIgnoreList": [
+    "ShipSector"
+  ]
 }
