@@ -1,0 +1,6 @@
+{
+    "$schema": "../gomps-settings-schema.json",
+    "LocalPlayerObjectName": "Player(Clone)",
+    "RemotePlayerObjectScale": 0.3,
+    "TextScale": 2
+}
