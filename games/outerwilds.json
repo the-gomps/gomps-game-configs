@@ -3,5 +3,6 @@
   "OriginComponentName": "Sector",
   "OriginIgnoreList": [
     "ShipSector"
-  ]
+  ],
+  "FontName": "SpaceMono-Regular"
 }

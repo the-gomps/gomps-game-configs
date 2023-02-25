@@ -49,6 +49,10 @@
       "items": {
         "type": "string"
       }
+    },
+    "FontName": {
+      "description": "Name of a font included in the game, to use for text rendered by Gomps. ",
+      "type": "string"
     }
   }
 }

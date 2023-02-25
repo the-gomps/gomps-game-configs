@@ -3,5 +3,6 @@
     "LocalPlayerObjectName": "Player(Clone)",
     "TextScale": 2,
     "RemotePlayerObjectEulerOffset": "0,180,0",
-    "RemotePlayerShaderName": "Ittle Dew/Transparent Vertex Colored"
+    "RemotePlayerShaderName": "Ittle Dew/Transparent Vertex Colored",
+    "FontName": "InfoScreen"
 }
