@@ -1,7 +1,7 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
   "LocalPlayerObjectName": "Player",
-  "LocalPlayerObjectChildPath": "",
+  "LocalPlayerObjectChildPath": "ZekeRigged/ZekeArmature/Pelvis/LowerTorso/UpperTorso/Head",
   "LocalCameraObjectName": "",
   "RemotePlayerObjectEulerOffset": "0,0,0",
   "RemotePlayerObjectPositionOffset": "0,0,0",
