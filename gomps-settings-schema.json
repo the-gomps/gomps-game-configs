@@ -43,14 +43,6 @@
       "description": "Name of a shader to use for the remote player objects. This must be a shader that's already included in the game. Ideally a shader that has either _Color or _MainTex properties. If left empty, I'll use one of the custom shaders included with Gomps.",
       "type": "string"
     },
-    "RemotePlayerColorLight": {
-      "description": "RGBA color to use for the light Gomps materials (like the gomp's skin). Format is r,g,b,a with each element being in the 0-1 range.",
-      "type": "string"
-    },
-    "RemotePlayerColorDark": {
-      "description": "RGBA color to use for the dark Gomps materials (like the gomp's eyes). Format is r,g,b,a with each element being in the 0-1 range.",
-      "type": "string"
-    },
     "OriginComponentName": {
       "description": "Name of a Unity Component present in objects to be used as reference points. If this is defined, positions will be relative to the origin object closest to each player. This is useful for games where the scene gets centered around the player, or when players are standing on large, fast moving objects.",
       "type": "string"
