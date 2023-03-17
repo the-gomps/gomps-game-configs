@@ -2,4 +2,4 @@
 
 There will always be games that don't work perfectly with the default GOMPS settings. This repo hosts good GOMPS settings for specific games.
 
-File names have the format `[game-slug].json`. The game slug is generated from the game exe name, and you can find it in the BepInEx console where it says `Getting game settings from https://gomps-settings.pages.dev/[game-slug].json`. I'll make this clearer later 🙏
+File names have the format `[game-id].json`. The game ID can be found in Gomps Manager, next to the game's name. For example, for the game "Grow Home", the entry looks like `Grow Home  Legacy MONO x86  ID: growhome`. In this case, the ID is just `growhome`, and the settings file would be `growhome.json`.
