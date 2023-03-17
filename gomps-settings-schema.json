@@ -40,7 +40,7 @@
       "default": "0,0,0"
     },
     "RemotePlayerShaderName": {
-      "description": "Name of a shader to use for the remote player objects. This must be a shader that's already included in the game. If left empty, I'll use one of the custom shaders included with Gomps",
+      "description": "Name of a shader to use for the remote player objects. This must be a shader that's already included in the game. Ideally a shader that has either _Color or _MainTex properties. If left empty, I'll use one of the custom shaders included with Gomps.",
       "type": "string"
     },
     "OriginComponentName": {
