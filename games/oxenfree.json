@@ -5,9 +5,9 @@
   "LocalCameraObjectName": "",
   "RemotePlayerObjectEulerOffset": "0,0,90",
   "RemotePlayerObjectPositionOffset": "0,0,0",
-  "RemotePlayerObjectScale": 1,
+  "RemotePlayerObjectScale": 1.5,
   "RemotePlayerShaderName": "",
-  "TextScale": 1,
+  "TextScale": 3,
   "FontName": "",
   "OriginComponentName": "",
   "OriginIgnoreList": []
