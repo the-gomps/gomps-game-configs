@@ -4,5 +4,5 @@
   "LocalPlayerObjectChildPath": "PlayerSprite/HeadPosition",
   "RemotePlayerObjectEulerOffset": "0,180,0",
   "RemotePlayerObjectScale": 2,
-  "TextScale": 1
+  "TextScale": 3
 }
