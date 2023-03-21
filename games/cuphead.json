@@ -1,6 +1,8 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
   "LocalPlayerObjectName": "PlayerOne",
-  "RemotePlayerObjectScale": 100,
-  "RemotePlayerShaderName": "Legacy Shaders/VertexLit"
+  "RemotePlayerObjectScale": 150,
+  "RemotePlayerShaderName": "Legacy Shaders/VertexLit",
+  "RemotePlayerObjectEulerOffset": "0,180,0",
+  "RemotePlayerObjectPositionOffset": "0,63,0"
 }
