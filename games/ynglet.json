@@ -1,9 +1,8 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "LocalPlayerObjectName": "World Manager",
-  "LocalPlayerObjectChildPath": "Player & Camera/World Map Ynglet",
+  "LocalPlayerObjectName": "Tail Connector 0",
   "RemotePlayerObjectScale": 5,
   "TextScale": 15,
   "RemotePlayerObjectEulerOffset": "0,180,90",
-  "LocalCameraObjectName": "World Map Camera"
+  "LocalCameraObjectName": "Dynamic Camera"
 }
