@@ -1,0 +1,7 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "LocalPlayerObjectName": "Tequila Sunset",
+  "LocalPlayerObjectChildPath": "char/char_SHJntGrp/char_body_ROOTSHJnt/char_body_Spine_01SHJnt/char_body_Spine_02SHJnt/char_body_Spine_TopSHJnt/char_body_Neck_01SHJnt/char_body_Neck_02SHJnt/char_body_Neck_TopSHJnt/char_body_head_TopSHJnt",
+  "RemotePlayerObjectScale": 0.75,
+  "RemotePlayerObjectPositionOffset": "0,-0.2,0"
+}
