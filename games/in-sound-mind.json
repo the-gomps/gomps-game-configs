@@ -1,0 +1,4 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "RenderQueue": 3000
+}
