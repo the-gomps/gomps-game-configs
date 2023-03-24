@@ -1,6 +1,6 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "RemotePlayerObjectScale": 2,
-  "PreferUiText": true,
+  "RemotePlayerObjectScale": 3,
+  "TextScale": 2,
   "RenderQueue": 5000
 }
