@@ -1,0 +1,5 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "LocalPlayerObjectName": "Anita Agent",
+  "LocalPlayerObjectChildPath": "Head Target Pivot"
+}
