@@ -1,8 +1,16 @@
 {
-  "$schema": "../gomps-settings-schema.json",
-  "LocalPlayerObjectName": "Walkster",
-  "LocalPlayerObjectChildPath": "HeadPivot",
-  "RemotePlayerObjectScale": 1.5,
-  "FontName": "block_fixed",
-  "TextScale": 1.5
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 1.5,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "Walkster",
+        "ChildPath": "HeadPivot"
+      }
+    ]
+  },
+  "Text": {
+    "TextScale": 1.5,
+    "FontName": "block_fixed"
+  }
 }

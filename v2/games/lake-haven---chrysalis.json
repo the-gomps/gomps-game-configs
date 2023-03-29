@@ -1,14 +1,23 @@
 {
-  "$schema": "../gomps-settings-schema.json",
-  "LocalPlayerObjectName": "Player",
-  "LocalPlayerObjectChildPath": "ZekeRigged/ZekeArmature/Pelvis/LowerTorso/UpperTorso/Head",
-  "LocalCameraObjectName": "",
-  "RemotePlayerObjectEulerOffset": "0,0,0",
-  "RemotePlayerObjectPositionOffset": "0,0,0",
-  "RemotePlayerObjectScale": 1,
-  "RemotePlayerShaderName": "PSX/PSXLit",
-  "TextScale": 1,
-  "FontName": "",
-  "OriginComponentName": "",
-  "OriginIgnoreList": []
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 1,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "Player",
+        "ChildPath": "ZekeRigged/ZekeArmature/Pelvis/LowerTorso/UpperTorso/Head"
+      }
+    ]
+  },
+  "Text": {
+    "TextScale": 1,
+    "FontName": ""
+  },
+  "RemotePlayer": {
+    "PositionOffset": "0,0,0",
+    "EulerAnglesOffset": "0,0,0"
+  },
+  "Rendering": {
+    "ShaderName": "PSX/PSXLit"
+  }
 }

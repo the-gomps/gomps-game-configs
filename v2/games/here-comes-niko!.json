@@ -1,7 +1,15 @@
 {
-  "$schema": "../gomps-settings-schema.json",
-  "LocalPlayerObjectName": "PlayerCharacter",
-  "LocalPlayerObjectChildPath": "CharacterController/LookDirection/Image Carry",
-  "RemotePlayerObjectScale": 1.5,
-  "TextScale": 2
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 1.5,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "PlayerCharacter",
+        "ChildPath": "CharacterController/LookDirection/Image Carry"
+      }
+    ]
+  },
+  "Text": {
+    "TextScale": 2
+  }
 }

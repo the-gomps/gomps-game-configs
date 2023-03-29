@@ -1,5 +1,7 @@
 {
-  "$schema": "../gomps-settings-schema.json",
-  "RemotePlayerObjectScale": 0.75,
-  "RemotePlayerShaderName": "Unlit/Unlit Transparent Hybrid"
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 0.75,
+  "Rendering": {
+    "ShaderName": "Unlit/Unlit Transparent Hybrid"
+  }
 }

@@ -1,8 +1,18 @@
 {
-  "$schema": "../gomps-settings-schema.json",
-  "LocalPlayerObjectName": "Player0",
-  "LocalPlayerObjectChildPath": "PlayerSprite/HeadPosition",
-  "RemotePlayerObjectEulerOffset": "0,180,0",
-  "RemotePlayerObjectScale": 2,
-  "TextScale": 3
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 2,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "Player0",
+        "ChildPath": "PlayerSprite/HeadPosition"
+      }
+    ]
+  },
+  "Text": {
+    "TextScale": 3
+  },
+  "RemotePlayer": {
+    "EulerAnglesOffset": "0,180,0"
+  }
 }

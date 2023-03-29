@@ -1,6 +1,14 @@
 {
-  "$schema": "../gomps-settings-schema.json",
-  "LocalPlayerObjectName": "PlayerOne",
-  "RemotePlayerObjectScale": 100,
-  "RemotePlayerShaderName": "Legacy Shaders/VertexLit"
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 100,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "PlayerOne"
+      }
+    ]
+  },
+  "Rendering": {
+    "ShaderName": "Legacy Shaders/VertexLit"
+  }
 }
