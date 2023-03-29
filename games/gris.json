@@ -1,24 +1,26 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 1,
   "LocalPlayer": {
     "Include": [
       {
-        "Component": "Ynglet.YngletPlayer"
+        "Component": "Gris.CharacterController2D",
+        "ChildPath": "Sprite"
       }
     ]
   },
   "MainCamera": {
     "Include": [
       {
-        "Component": "Ynglet.CameraControllerBase2D"
+        "ObjectName": "Main Camera(Clone)"
       }
     ]
   },
-  "BaseScale": 5,
   "Text": {
-    "TextScale": 15
+    "TextScale": 2
   },
   "RemotePlayer": {
-    "EulerAnglesOffset": "0,180,90"
+    "PositionOffset": "0,0.9,0",
+    "EulerAnglesOffset": "0,130,0"
   }
 }

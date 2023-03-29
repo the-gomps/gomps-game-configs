@@ -1,8 +1,18 @@
 {
-    "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-    "LocalPlayerObjectName": "PlayerEnt",
-    "LocalPlayerObjectChildPath": "Ittle/ittle/Armature/root/chest/head",
-    "RemotePlayerObjectScale": 1,
-    "TextScale": 2,
-    "RemotePlayerObjectEulerOffset": "0,0,90"
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 1,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "PlayerEnt",
+        "ChildPath": "Ittle/ittle/Armature/root/chest/head"
+      }
+    ]
+  },
+  "Text": {
+    "TextScale": 2
+  },
+  "RemotePlayer": {
+    "EulerAnglesOffset": "0,0,90"
+  }
 }

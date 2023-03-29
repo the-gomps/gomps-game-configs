@@ -1,8 +1,24 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "LocalPlayerObjectName": "World Map Ynglet",
-  "LocalPlayerObjectChildPath": "Player & Camera",
-  "RemotePlayerObjectScale": 5,
-  "TextScale": 10,
-  "RemotePlayerObjectEulerOffset": "0,180,90"
+  "LocalPlayer": {
+    "Include": [
+      {
+        "Component": "Ynglet.YngletPlayer"
+      }
+    ]
+  },
+  "MainCamera": {
+    "Include": [
+      {
+        "Component": "Ynglet.CameraControllerBase2D"
+      }
+    ]
+  },
+  "BaseScale": 5,
+  "Text": {
+    "TextScale": 15
+  },
+  "RemotePlayer": {
+    "EulerAnglesOffset": "0,180,90"
+  }
 }

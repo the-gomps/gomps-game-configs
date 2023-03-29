@@ -1,6 +1,12 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "LocalPlayerObjectName": "Walkster",
-  "LocalPlayerObjectChildPath": "HeadPivot",
-  "RemotePlayerObjectScale": 1.5
+  "BaseScale": 1.5,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "Walkster",
+        "ChildPath": "HeadPivot"
+      }
+    ]
+  }
 }

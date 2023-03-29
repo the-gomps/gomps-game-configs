@@ -1,5 +1,13 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "LocalPlayerObjectName": "Thomas",
-  "RemotePlayerShaderName": "Legacy Shaders/VertexLit"
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "Thomas"
+      }
+    ]
+  },
+  "Rendering": {
+    "ShaderName": "Legacy Shaders/VertexLit"
+  }
 }

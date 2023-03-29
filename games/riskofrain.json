@@ -1,6 +1,12 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "LocalPlayerObjectName": "PlayerPositionIndicator(Clone)",
-  "LocalPlayerObjectChildPath": "DeadIcon",
-  "RemotePlayerObjectScale": 1
+  "BaseScale": 1,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "PlayerPositionIndicator(Clone)",
+        "ChildPath": "DeadIcon"
+      }
+    ]
+  }
 }
