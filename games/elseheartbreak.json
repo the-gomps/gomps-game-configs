@@ -1,0 +1,19 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 1.5,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "Component": "CharacterShell",
+        "ObjectName": "Sebastian",
+        "ChildPath": "Sebastian_Ny/CharacterRig/master_ctrl/root_bn/spine0_bn/spine1_bn/shoulder_bn/head_bn"
+      }
+    ]
+  },
+  "Text": {
+    "TextScale": 2
+  },
+  "RemotePlayer": {
+    "EulerAnglesOffset": "90,0,90"
+  }
+}
