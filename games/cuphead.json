@@ -1,6 +1,6 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "BaseScale": 100,
+  "BaseScale": 150,
   "LocalPlayer": {
     "Include": [
       {
@@ -10,5 +10,9 @@
   },
   "Rendering": {
     "ShaderName": "Legacy Shaders/VertexLit"
+  },
+  "RemotePlayer": {
+    "PositionOffset": "0,63,0",
+    "EulerAnglesOffset": "0,180,0"
   }
 }

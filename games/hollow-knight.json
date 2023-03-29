@@ -13,6 +13,6 @@
   },
   "RemotePlayer": {
     "PositionOffset": "0.0,-0.6,0.0",
-    "EulerAnglesOffset": "0.0,180,0.0"
+    "EulerAnglesOffset": "0.0,-130,0.0"
   }
 }

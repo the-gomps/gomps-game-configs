@@ -1,8 +1,8 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "BaseScale": 2,
+  "BaseScale": 3,
   "Text": {
-    "PreferUiText": true
+    "TextScale": 2
   },
   "Rendering": {
     "RenderQueue": 5000
