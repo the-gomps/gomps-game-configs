@@ -1,0 +1,8 @@
+{
+    "$schema": "../gomps-settings-schema.json",
+    "LocalPlayerObjectName": "PlayerEnt",
+    "LocalPlayerObjectChildPath": "Ittle/ittle/Armature/root/chest/head",
+    "RemotePlayerObjectScale": 1,
+    "TextScale": 2,
+    "RemotePlayerObjectEulerOffset": "0,0,90"
+}

@@ -1,0 +1,5 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "LocalPlayerObjectName": "Thomas",
+  "RemotePlayerShaderName": "Legacy Shaders/VertexLit"
+}

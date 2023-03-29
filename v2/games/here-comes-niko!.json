@@ -1,0 +1,7 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "LocalPlayerObjectName": "PlayerCharacter",
+  "LocalPlayerObjectChildPath": "CharacterController/LookDirection/Image Carry",
+  "RemotePlayerObjectScale": 1.5,
+  "TextScale": 2
+}

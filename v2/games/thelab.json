@@ -1,0 +1,5 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "RemotePlayerObjectScale": 0.75,
+  "RemotePlayerShaderName": "Unlit/Unlit Transparent Hybrid"
+}

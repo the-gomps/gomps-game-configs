@@ -1,0 +1,14 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "LocalPlayerObjectName": "AlexPlayer(Clone)",
+  "LocalPlayerObjectChildPath": "Alex_Rig:head1_head",
+  "LocalCameraObjectName": "",
+  "RemotePlayerObjectEulerOffset": "0,0,90",
+  "RemotePlayerObjectPositionOffset": "0,0,0",
+  "RemotePlayerObjectScale": 1.5,
+  "RemotePlayerShaderName": "",
+  "TextScale": 3,
+  "FontName": "",
+  "OriginComponentName": "",
+  "OriginIgnoreList": []
+}

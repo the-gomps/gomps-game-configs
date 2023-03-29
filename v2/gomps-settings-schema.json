@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "JSON Schema",
+      "type": "string"
+    },
+    "BaseScale": {
+      "description": "Base scale multiplier for everything Gomps creates. Bigger number, bigger gomp.",
+      "type": "number",
+      "default": 1
+    },
+    "LocalPlayer": {
+      "description": "",
+      "$ref": "#/definitions/ObjectSearch"
+    },
+    "MainCamera": {
+      "description": "",
+      "$ref": "#/definitions/ObjectSearch"
+    },
+    "Origin": {
+      "description": "",
+      "$ref": "#/definitions/ObjectSearch"
+    },
+    "Text": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "TextScale": {
+          "type": "number",
+          "description": ""
+        },
+        "FontName": {
+          "type": "string",
+          "description": ""
+        },
+        "PreferUiText": {
+          "type": "boolean",
+          "description": ""
+        }
+      }
+    },
+    "RemotePlayer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "PositionOffset": {
+          "type": "string",
+          "description": ""
+        },
+        "EulerAnglesOffset": {
+          "type": "string",
+          "description": ""
+        }
+      }
+    },
+    "Rendering": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ShaderName": {
+          "type": "string",
+          "description": ""
+        },
+        "RenderQueue": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "definitions": {
+    "SearchQuery": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Component": {
+          "type": "string",
+          "description": "Name of a Component / MonoBehaviour, including the namespace. Most games don't use a namespace for their custom scripts, but many do, so make sure you're using the correct full name. Example: 'UnityEngine.CharacterController'"
+        },
+        "Tag": {
+          "type": "string",
+          "description": "Object tag to search for. Common tags are Player and MainCamera (which Gomps already uses by default to find the main camera and player object)."
+        },
+        "ObjectName": {
+          "type": "string",
+          "description": "Case insensitive game object name to search for."
+        },
+        "ChildPath": {
+          "type": "string",
+          "description": "After a base object is found using any combination of Component, Tag and ObjectName, this path is used to find a more specific child. This is useful in cases where the game's player object represents the entire character body, and you want the gomp to be specifically in the character's head, for instance. Format: 'ChildA/ChildB/ChildC'."
+        }
+      }
+    },
+    "ObjectSearch": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Include": {
+          "type": "array",
+          "description": "",
+          "items": {
+            "$ref": "#/definitions/SearchQuery"
+          }
+        },
+        "Exclude": {
+          "type": "array",
+          "description": "",
+          "items": {
+            "$ref": "#/definitions/SearchQuery"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "RemotePlayerObjectScale": 2,
+  "PreferUiText": true,
+  "RenderQueue": 5000
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "LocalPlayerObjectName": "Conway",
+  "LocalPlayerObjectChildPath": "ConwayArmature/root/torso/chest/lower_neck/neck/head",
+  "RemotePlayerObjectEulerOffset": "0,180,-90",
+  "RemotePlayerObjectScale": 1,
+  "RemotePlayerShaderName": "Vertex/Textured/Unlit",
+  "TextScale": 1
+}

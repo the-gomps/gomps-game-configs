@@ -1,0 +1,24 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "LocalPlayer": {
+    "Include": [
+      {
+        "Component": "Ynglet.YngletPlayer"
+      }
+    ]
+  },
+  "MainCamera": {
+    "Include": [
+      {
+        "Component": "Ynglet.CameraControllerBase2D"
+      }
+    ]
+  },
+  "BaseScale": 5,
+  "Text": {
+    "TextScale": 15
+  },
+  "RemotePlayer": {
+    "EulerAnglesOffset": "0,180,90"
+  }
+}

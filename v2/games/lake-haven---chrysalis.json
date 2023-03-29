@@ -1,0 +1,14 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "LocalPlayerObjectName": "Player",
+  "LocalPlayerObjectChildPath": "ZekeRigged/ZekeArmature/Pelvis/LowerTorso/UpperTorso/Head",
+  "LocalCameraObjectName": "",
+  "RemotePlayerObjectEulerOffset": "0,0,0",
+  "RemotePlayerObjectPositionOffset": "0,0,0",
+  "RemotePlayerObjectScale": 1,
+  "RemotePlayerShaderName": "PSX/PSXLit",
+  "TextScale": 1,
+  "FontName": "",
+  "OriginComponentName": "",
+  "OriginIgnoreList": []
+}

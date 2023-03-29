@@ -1,0 +1,6 @@
+{
+  "$schema": "../gomps-settings-schema.json",
+  "LocalPlayerObjectName": "Walkster",
+  "LocalPlayerObjectChildPath": "HeadPivot",
+  "RemotePlayerObjectScale": 1.5
+}
