@@ -10,63 +10,74 @@
     "BaseScale": {
       "description": "Base scale multiplier for everything Gomps creates. Bigger number, bigger gomp.",
       "type": "number",
-      "default": 1
+      "default": 1,
+      "minimum": 0
     },
     "LocalPlayer": {
-      "description": "",
+      "description": "These conditions are used to determine which game object is considered the local player. It's this object that determines where each player's gomp is positioned. By default, Gomps tries to find the player using a few preconfigured conditions (player tag, main camera, etc), so in many cases you won't need to configure this at all.",
       "$ref": "#/definitions/ObjectSearch"
     },
     "MainCamera": {
-      "description": "",
+      "description": "These conditions are used to determine which game object is considered the main camera. Gomps needs to know which camera is the main one, so it can make objects face that camera when needed, and to hide objects that are too close to the camera. By default, Gomps uses Camera.main, which works in the majority of games. But in some games, you might need to configure this manually.",
       "$ref": "#/definitions/ObjectSearch"
     },
     "Origin": {
-      "description": "",
+      "description": "These conditions are used to determine which game objects are used as reference points for the player's position / rotation. If this is defined, positions will be relative to the origin object closest to each player. This is useful when the absolute coordinate system isn't enough. For instance in games where the scene gets centered around the player (known as \"floating origin\"), or games that have random layouts (but still have nonrandom \"rooms\"). The vast majority of games don't need this.",
       "$ref": "#/definitions/ObjectSearch"
     },
     "Text": {
       "type": "object",
+      "description": "Determines how text is rendered. Affects the text from player name labels and the text from player notes.",
       "additionalProperties": false,
       "properties": {
         "TextScale": {
           "type": "number",
-          "description": ""
+          "description": "How big it be. Bigger number bigger text.",
+          "default": 1,
+          "minimum": 0
         },
         "FontName": {
           "type": "string",
-          "description": ""
+          "description": "Name of a font that's present in the game. By default, Gomps uses Arial if it exists, otherwise it uses the first font it finds. If none of those work, use this to provide a font from the game. You can also change the font just to make it look nicer and better fit the game's aesthetic (Arial do be ugly). Note that this can't be just some font included in the operating system, it's gotta be a font included in the game."
         },
         "PreferUiText": {
           "type": "boolean",
-          "description": ""
+          "description": "Gomps tries to render text in two ways: using TextMesh or using UI.Text. Some games only work with one, some only work with the other. Gomps usually only picks UI.Text if TextMesh doesn't work. Some times, Gomps will pick TextMesh and it doesn't look right. If that's the case, you can set this to true to force it to use UI.Text."
         }
       }
     },
     "RemotePlayer": {
       "type": "object",
+      "description": "Adjustments for how the gomp blobs are presented.",
       "additionalProperties": false,
       "properties": {
         "PositionOffset": {
           "type": "string",
-          "description": ""
+          "description": "Local position offset to apply to the model. Useful if the object you're using as LocalPlayer doesn't quite track the correct position. Format: 'x,y,z'. Example: '0.1,0,1.32'.",
+          "default": "0,0,0"
         },
         "EulerAnglesOffset": {
           "type": "string",
-          "description": ""
+          "description": "Local rotation offset to apply to the model. Useful if the object you're using as LocalPlayer doesn't quite track the correct rotation. Format: 'x,y,z'. Example: '0.1,0,1.32'.",
+          "default": "0,0,0"
         }
       }
     },
     "Rendering": {
       "type": "object",
+      "description": "Adjustments for how Gomps renders things.",
       "additionalProperties": false,
       "properties": {
         "ShaderName": {
           "type": "string",
-          "description": ""
+          "description": "Name of a shader to use for the remote player objects. This must be a shader that's already included in the game. Ideally an unlit shader that supports one of these properties: _Color, _BaseColor, _MainTex or _BaseMap. By default Gomps uses its own custom unlit shader, which may not always work."
         },
         "RenderQueue": {
           "type": "number",
-          "description": ""
+          "description": "Render queue to use for Gomps materials. Make it higher if Gomps stuff is rendering behind other things, or if you see effects like ambient occlusion rendering on top of the gomps.",
+          "minimum": 0,
+          "maximum": 5000,
+          "default": 4000
         }
       }
     }
@@ -90,7 +101,7 @@
         },
         "ChildPath": {
           "type": "string",
-          "description": "After a base object is found using any combination of Component, Tag and ObjectName, this path is used to find a more specific child. This is useful in cases where the game's player object represents the entire character body, and you want the gomp to be specifically in the character's head, for instance. Format: 'ChildA/ChildB/ChildC'."
+          "description": "After a base object is found using any combination of Component, Tag or ObjectName, this path is used to find a more specific child. This is useful in cases where the game's player object represents the entire character body, and you want the gomp to be specifically in the character's head, for instance. Format: 'ChildA/ChildB/ChildC'."
         }
       }
     },
@@ -100,14 +111,14 @@
       "properties": {
         "Include": {
           "type": "array",
-          "description": "",
+          "description": "Conditions to apply when searching for this object. The order of this list is important: Gomps will test each item in order, and will use the first one that successfully finds an object. Most games only need a single item in this list. Adding more items is useful for games where the objects we want to track change depending on what's happening in the game.",
           "items": {
             "$ref": "#/definitions/SearchQuery"
           }
         },
         "Exclude": {
           "type": "array",
-          "description": "",
+          "description": "If an object matches any of the conditions in this list, it will be excluded from the results of the \"Include\" conditions. Order doesn't matter here, all conditions are tested.",
           "items": {
             "$ref": "#/definitions/SearchQuery"
           }
