@@ -1,6 +1,5 @@
 {
   "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
-  "BaseScale": 1,
   "LocalPlayer": {
     "Include": [
       {
@@ -8,9 +7,6 @@
         "ChildPath": "ConwayArmature/root/torso/chest/lower_neck/neck/head"
       }
     ]
-  },
-  "Text": {
-    "TextScale": 1
   },
   "RemotePlayer": {
     "EulerAnglesOffset": "0,180,-90"

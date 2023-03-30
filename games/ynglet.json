@@ -16,7 +16,7 @@
   },
   "BaseScale": 5,
   "Text": {
-    "TextScale": 15
+    "TextScale": 3
   },
   "RemotePlayer": {
     "EulerAnglesOffset": "0,180,90"
