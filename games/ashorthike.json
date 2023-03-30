@@ -1,0 +1,18 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "LocalPlayer": {
+    "Include": [
+      {
+        "Tag": "Player",
+        "ChildPath": "Character/Armature/root/Base/Chest/Head"
+      }
+    ]
+  },
+  "RemotePlayer": {
+    "EulerAnglesOffset": "0,0,90"
+  },
+  "BaseScale": 5,
+  "Text": {
+    "TextScale": 10
+  }
+}
