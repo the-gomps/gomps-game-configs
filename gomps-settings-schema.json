@@ -8,7 +8,7 @@
       "type": "string"
     },
     "BaseScale": {
-      "description": "Base scale multiplier for everything Gomps creates. Bigger number, bigger gomp.",
+      "description": "Base scale multiplier for everything Gomps does. This includes the size of objects Gomps creates (remote players, note dots, etc), distances between objects, and the size of text.",
       "type": "number",
       "default": 1,
       "minimum": 0
@@ -32,7 +32,7 @@
       "properties": {
         "TextScale": {
           "type": "number",
-          "description": "How big it be. Bigger number bigger text.",
+          "description": "Scale multiplier for all text rendered by Gomps. Note that this multiplies together with the BaseScale property. That means BaseScale=2 and TextScale=3 gives you a total text scale multiplier of 2*3=6.",
           "default": 1,
           "minimum": 0
         },
