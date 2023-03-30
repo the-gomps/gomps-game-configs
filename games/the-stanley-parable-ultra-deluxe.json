@@ -1,0 +1,12 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-settings/gomps-settings-schema.json",
+  "BaseScale": 0.5,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "Component": "UnityEngine.Camera",
+        "Tag": "MainCamera"
+      }
+    ]
+  }
+}
