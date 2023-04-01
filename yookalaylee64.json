@@ -1,0 +1,12 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-configs/gomps-settings-schema.json",
+  "BaseScale": 2,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "Tag": "Player",
+        "ChildPath": "YookaLaylee_combined/ALL_BASE/BASE/BACK/BACK_A/NECK/HEAD"
+      }
+    ]
+  }
+}
