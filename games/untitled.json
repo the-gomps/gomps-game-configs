@@ -1,0 +1,15 @@
+{
+  "$schema": "https://the-gomps.github.io/gomps-game-configs/gomps-settings-schema.json",
+  "BaseScale": 0.5,
+  "LocalPlayer": {
+    "Include": [
+      {
+        "Tag": "Player"
+      }
+    ]
+  },
+  "RemotePlayer": {
+    "EulerAnglesOffset": "0,-90,90",
+    "PositionOffset": "0,0,0.1"
+  }
+}
